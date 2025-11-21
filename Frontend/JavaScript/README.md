@@ -232,19 +232,7 @@ console.log(myLetVar); // ReferenceError: Cannot access 'myLetVar' before initia
 let myLetVar = 5;
 ```
 
-### Constants and Hoisting
 
-`const` and `let` behave similarly when hoisted, but their difference lies in the fact that `const` must be assigned a value at the time of declaration, whereas `let` does not require an initial value.
-
-Here's an Example:
-
-```javascript
-console.log(myConstVar); // ReferenceError: Cannot access 'myConstVar' before initialization
-const myConstVar = 10;
-
-console.log(myLetVar); // Undefined
-let myLetVar = 5;
-```
 <br>
 
 ## 5. What is the _scope_ in JavaScript?
