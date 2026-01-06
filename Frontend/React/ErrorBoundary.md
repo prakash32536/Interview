@@ -1,4 +1,4 @@
-What is an Error Boundary?
+**What is an Error Boundary?**
 While building applications, errors are inevitable. They might come from APIs, UI or from several other places.
 
 It’s very important to handle these errors gracefully & maintain good UX despite these errors.
